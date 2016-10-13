@@ -1,0 +1,8 @@
+#PBS -N hot-potato-tce
+#PBS -l nodes=5:ppn=5
+#PBS -l walltime=00:02:00
+#PBS -o hot-potato.out
+#PBS -e hot-potato.err
+#PBS -V
+
+mpirun /home/tenders/Source/class_work/sandbox/build/hot-potato
